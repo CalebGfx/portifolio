@@ -264,6 +264,20 @@
 
 	});
 
+function handleTitle() {
+		let i = 0;
+		setInterval(function(){
+			let titles=['Anthony', 'Anthon', 'Antho', 'Anth', 'Ant', 'An', 'A', 'An', 'Ant', 'Anth', 'Antho', 'Anthon', 'Anthony'];
+			if (i === titles.length) i=0;
+	
+			document.title = titles[i];
+	
+			i++;
+		}, 300);
+}
+	
+handleTitle();
+
 
  	/*----------------------------------------------------- */
   	/* Back to top
