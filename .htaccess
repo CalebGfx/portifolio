@@ -2,5 +2,5 @@ RewriteCond %{REQUEST-FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html
 
 RewriteEngine On
-RewriteCond %{HTTP_HOST}  !^www\.example\.com$ [NC]
-RewriteRule ^(.*) http://www.example.com/$1 [L,R]
+RewriteCond %{HTTP_HOST}  !^www\.anthonycaleb\.tk$ [NC]
+RewriteRule ^(.*) http://www.anthonycaleb.tk/$1 [L,R]
