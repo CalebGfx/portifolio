@@ -1,6 +1,6 @@
 RewriteCond %{REQUEST-FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html
 
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.anthonycaleb.tk/
-RewriteRule (.*) http://www.anthonycaleb.tk/$1 [R=301,L]
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^anthonycaleb.tk 
+RewriteRule (.*) https://www.anthonycaleb.tk/$1 [R=301,L]
